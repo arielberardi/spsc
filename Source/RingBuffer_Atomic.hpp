@@ -95,7 +95,7 @@ class RingBuffer {
 
   static_assert(std::atomic<size_t>::is_always_lock_free);
 
-  static constexpr auto kHardwareSize = 32;
+  static constexpr auto kHardwareSize = 64;
   alignas(kHardwareSize) std::atomic<size_t> m_pushCursor{};
   alignas(kHardwareSize) std::atomic<size_t> m_popCursor{};
 

@@ -10,7 +10,7 @@ There are three examples of Ring Buffers using Atomic, Mutex and the Boost libra
 
 ### Benchmarks Results
 
-* LockFree: `ops/sec=153.345M/s` (103.594M/s no threads pinned)
+* LockFree: `ops/sec=203.243M/s` (172.077M/s no threads pinned)
 * Mutex: `ops/sec=15.961M/s` (12.1346M/s no threads pinned)  
 * Boost/SPSC: `ops/sec=121.009M/s` (88.0499M/s no threads pinned)
 

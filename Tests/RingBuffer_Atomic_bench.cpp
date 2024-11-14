@@ -6,7 +6,7 @@
 
 #include "RingBuffer_Atomic.hpp"
 
-// #define PIN_THREADS
+#define PIN_THREADS
 
 #ifdef PIN_THREADS
 static void pinThread(int cpu) {
